@@ -1,0 +1,39 @@
+	<form action="/signup-update/<%= user_array._id%>" method="post">
+					<div class="sign-u">
+							<input type="text" name="user_name" placeholder="Enter Your Name" value="<%= user_array.user_name%>"  required="">
+						<div class="clearfix"> </div>
+					</div>
+					<div class="sign-u">
+								<input type="text" name="user_number" placeholder="Enter Your Contact Number"  value="<%= user_array.user_number%>" required="">
+						<div class="clearfix"> </div>
+					</div>
+					<div class="sign-u">
+								<input type="email" name="user_email" placeholder="Enter Your Gmail" value="<%= user_array.user_email%>"  required="">
+						<div class="clearfix"> </div>
+					</div>
+					<div class="sign-u">
+						<input type="password" name="user_password" placeholder="Enter Your Password"  value="<%= user_array.user_password%>"   required="">
+				<div class="clearfix"> </div>
+					<div class="sign-u">
+						<div class="clearfix"> </div>
+					</div>
+					<!-- <h6>Login Information :</h6>
+					<div class="sign-u">
+								<input type="password" name="signup-password" placeholder="Password" required="">
+						<div class="clearfix"> </div>
+					</div>
+					<div class="sign-u">
+								<input type="password" name="signup_cpass" placeholder="Confirm Password" required="">
+						</div> -->
+						<div class="clearfix"> </div>
+					<div class="sub_home">
+							<input type="submit" value="Submit">
+						<div class="clearfix"> </div>
+					</div>
+					<div class="registration">
+						Already Registered.
+						<a class="" href="login-form">
+							Login
+						</a>
+					</div>
+				</form>
